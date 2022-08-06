@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "qUrLKkSNIU2XAPSKWKXdcgPj0mpEBu7ZkVjJb/MSURxW2E2itsccIC46yAINyRcOa4gyvko6YmmTsyeaUYgoLQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\erick\\Documents\\Projetos\\Budget-App\\Budget.Mvc\\Budget.Mvc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\erick\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\erick\\.nuget\\packages\\microsoft.data.sqlite\\6.0.7\\microsoft.data.sqlite.6.0.7.nupkg.sha512",
+    "C:\\Users\\erick\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.7\\microsoft.data.sqlite.core.6.0.7.nupkg.sha512",
+    "C:\\Users\\erick\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\erick\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
+    "C:\\Users\\erick\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\erick\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.6\\sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\erick\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
