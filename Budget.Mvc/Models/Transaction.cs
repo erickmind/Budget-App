@@ -11,14 +11,14 @@ namespace Budget.Mvc.Models
         public string Category { get; set; }
         public int CategoryId { get; set; }
         public TransactionType TransactionType { get; set; }
+    }
 
-        public enum TransactionType
-        {
-            [Display(Name = "Income")]
-            Income = 1,
+    public enum TransactionType
+    {
+        [Display(Name = "Income")]
+        Income = 1,
 
-            [Display(Name = "Expense")]
-            Expense = 2,
-        }
+        [Display(Name = "Expense")]
+        Expense = 2,
     }
 }

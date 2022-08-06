@@ -17,6 +17,7 @@ namespace Budget.Mvc.Controllers
         public IActionResult Index()
         {
             var transactions = _budgetRepository.GetTransactions();
+
             var viewModel = new BudgetViewModel
             {
                 Transactions = transactions

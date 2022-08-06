@@ -1,5 +1,5 @@
 ﻿using System.Data;
-using System.Transactions;
+using Budget.Mvc.Models;
 using Dapper;
 using Microsoft.Data.Sqlite;
 
@@ -9,7 +9,7 @@ namespace Budget.Mvc.Repositories
     {
         List<Transaction> GetTransactions();
     }
-    public class BudgetRepository
+    public class BudgetRepository : IBudgetRepository
     {
         private readonly IConfiguration _configuration;
         public BudgetRepository(IConfiguration configuration)   
@@ -22,10 +22,9 @@ namespace Budget.Mvc.Repositories
                 SqliteConnection(_configuration.GetConnectionString("ConnectionString")))
             {
                 var query =
-                    @"SELECT t.Amount, t.CategoryId, t.[Date], t.Id, t.TransactionType, t.Name,
-                        c.Name AS Category
+                    @"SELECT t.Amount, t.CategoryId, t.[Date], t.Id, t.TransactionType, t.Name, c.Name AS Category
                             FROM Transactions AS t
-                            LEFT JOIN Category AS c]
+                            LEFT JOIN Category AS c
                             ON t.CategoryId = c.Id";
                 var allTransactions = connection.Query<Transaction>(query);
 
